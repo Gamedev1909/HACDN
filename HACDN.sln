@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HACDN", "Shogun Tool\HACDN.vbproj", "{454656F7-2996-455B-9785-3068CF3391BE}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HACDN", "HACDN\HACDN.vbproj", "{454656F7-2996-455B-9785-3068CF3391BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
