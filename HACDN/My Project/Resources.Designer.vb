@@ -61,11 +61,56 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to https://atumn.hac.lp1.d4c.nintendo.net.
+        '''  Looks up a localized string similar to AEAAB1CA08ADF9BEF12991F369E3C567D6881E4E4A6A47A51F6E4877062D542D.
         '''</summary>
-        Friend ReadOnly Property CDNUrl() As String
+        Friend ReadOnly Property header_key() As String
             Get
-                Return ResourceManager.GetString("CDNUrl", resourceCulture)
+                Return ResourceManager.GetString("header_key", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to EF979E289A132C23D39C4EC5A0BBA969.
+        '''</summary>
+        Friend ReadOnly Property key_area_key_application_00() As String
+            Get
+                Return ResourceManager.GetString("key_area_key_application_00", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to CDEDBAB97B69729073DFB2440BFF2C13.
+        '''</summary>
+        Friend ReadOnly Property key_area_key_application_01() As String
+            Get
+                Return ResourceManager.GetString("key_area_key_application_01", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to 75716ED3B524A01DFE21456CE26C7270.
+        '''</summary>
+        Friend ReadOnly Property key_area_key_application_02() As String
+            Get
+                Return ResourceManager.GetString("key_area_key_application_02", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to F428306544CF5707C25EAA8BC0583FD1.
+        '''</summary>
+        Friend ReadOnly Property key_area_key_application_03() As String
+            Get
+                Return ResourceManager.GetString("key_area_key_application_03", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized string similar to 798844EC099EB6A04B26C7C728A35A4D.
+        '''</summary>
+        Friend ReadOnly Property key_area_key_application_04() As String
+            Get
+                Return ResourceManager.GetString("key_area_key_application_04", resourceCulture)
             End Get
         End Property
     End Module

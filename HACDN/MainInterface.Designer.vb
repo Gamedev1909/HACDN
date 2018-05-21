@@ -36,6 +36,7 @@ Partial Class Form1
         Me.TotalFileSize = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Seperator2 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.PercentDownloaded = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Status_Bar.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -87,7 +88,6 @@ Partial Class Form1
         '
         'Version_Input
         '
-        Me.Version_Input.Enabled = False
         Me.Version_Input.Font = New System.Drawing.Font("Arial", 12.0!)
         Me.Version_Input.Location = New System.Drawing.Point(452, 52)
         Me.Version_Input.Name = "Version_Input"
@@ -98,7 +98,6 @@ Partial Class Form1
         'Version_Label
         '
         Me.Version_Label.AutoSize = True
-        Me.Version_Label.Enabled = False
         Me.Version_Label.Font = New System.Drawing.Font("Arial", 12.0!)
         Me.Version_Label.Location = New System.Drawing.Point(457, 13)
         Me.Version_Label.Name = "Version_Label"
@@ -109,10 +108,10 @@ Partial Class Form1
         'Status_Bar
         '
         Me.Status_Bar.ImageScalingSize = New System.Drawing.Size(32, 32)
-        Me.Status_Bar.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AmountDownloaded, Me.Seperator1, Me.TotalFileSize, Me.Seperator2, Me.PercentDownloaded})
+        Me.Status_Bar.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AmountDownloaded, Me.Seperator1, Me.TotalFileSize, Me.Seperator2, Me.PercentDownloaded, Me.ToolStripStatusLabel1})
         Me.Status_Bar.Location = New System.Drawing.Point(0, 111)
         Me.Status_Bar.Name = "Status_Bar"
-        Me.Status_Bar.Size = New System.Drawing.Size(998, 38)
+        Me.Status_Bar.Size = New System.Drawing.Size(1005, 38)
         Me.Status_Bar.SizingGrip = False
         Me.Status_Bar.TabIndex = 27
         Me.Status_Bar.Text = "Status_Bar"
@@ -148,11 +147,20 @@ Partial Class Form1
         Me.PercentDownloaded.Size = New System.Drawing.Size(66, 33)
         Me.PercentDownloaded.Text = "0.0%"
         '
+        'ToolStripStatusLabel1
+        '
+        Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
+        Me.ToolStripStatusLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(650, 33)
+        Me.ToolStripStatusLabel1.Spring = True
+        Me.ToolStripStatusLabel1.Text = "0KB/sec"
+        Me.ToolStripStatusLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(998, 149)
+        Me.ClientSize = New System.Drawing.Size(1005, 149)
         Me.Controls.Add(Me.Status_Bar)
         Me.Controls.Add(Me.Version_Label)
         Me.Controls.Add(Me.Version_Input)
@@ -185,4 +193,5 @@ Partial Class Form1
     Friend WithEvents TotalFileSize As ToolStripStatusLabel
     Friend WithEvents Seperator2 As ToolStripStatusLabel
     Friend WithEvents PercentDownloaded As ToolStripStatusLabel
+    Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
 End Class

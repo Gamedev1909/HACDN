@@ -117,7 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CDNUrl" xml:space="preserve">
-    <value>https://atumn.hac.lp1.d4c.nintendo.net</value>
+  <data name="header_key" xml:space="preserve">
+    <value>AEAAB1CA08ADF9BEF12991F369E3C567D6881E4E4A6A47A51F6E4877062D542D</value>
+  </data>
+  <data name="key_area_key_application_00" xml:space="preserve">
+    <value>EF979E289A132C23D39C4EC5A0BBA969</value>
+  </data>
+  <data name="key_area_key_application_01" xml:space="preserve">
+    <value>CDEDBAB97B69729073DFB2440BFF2C13</value>
+  </data>
+  <data name="key_area_key_application_02" xml:space="preserve">
+    <value>75716ED3B524A01DFE21456CE26C7270</value>
+  </data>
+  <data name="key_area_key_application_03" xml:space="preserve">
+    <value>F428306544CF5707C25EAA8BC0583FD1</value>
+  </data>
+  <data name="key_area_key_application_04" xml:space="preserve">
+    <value>798844EC099EB6A04B26C7C728A35A4D</value>
   </data>
 </root>
